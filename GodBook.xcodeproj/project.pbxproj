@@ -9,13 +9,43 @@
 /* Begin PBXBuildFile section */
 		94FF7B43296EDBA3008D3C53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF7B42296EDBA3008D3C53 /* AppDelegate.swift */; };
 		94FF7B45296EDBA3008D3C53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF7B44296EDBA3008D3C53 /* SceneDelegate.swift */; };
-		94FF7B47296EDBA3008D3C53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF7B46296EDBA3008D3C53 /* ViewController.swift */; };
 		94FF7B4A296EDBA3008D3C53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94FF7B48296EDBA3008D3C53 /* Main.storyboard */; };
 		94FF7B4C296EDBA4008D3C53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94FF7B4B296EDBA4008D3C53 /* Assets.xcassets */; };
 		94FF7B4F296EDBA4008D3C53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94FF7B4D296EDBA4008D3C53 /* LaunchScreen.storyboard */; };
 		94FF7B5A296EDBA4008D3C53 /* GodBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF7B59296EDBA4008D3C53 /* GodBookTests.swift */; };
 		94FF7B64296EDBA5008D3C53 /* GodBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF7B63296EDBA5008D3C53 /* GodBookUITests.swift */; };
 		94FF7B66296EDBA5008D3C53 /* GodBookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF7B65296EDBA5008D3C53 /* GodBookUITestsLaunchTests.swift */; };
+		94FF7B7E296EE27E008D3C53 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FF7B7D296EE27D008D3C53 /* StoreKit.framework */; };
+		94FF7B85296EE325008D3C53 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF7B82296EE325008D3C53 /* BaseTableViewController.swift */; };
+		94FF7B86296EE325008D3C53 /* CellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF7B81296EE325008D3C53 /* CellProtocol.swift */; };
+		94FF7B87296EE325008D3C53 /* TableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF7B7F296EE324008D3C53 /* TableViewAdapter.swift */; };
+		94FF7B88296EE325008D3C53 /* BaseCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF7B83296EE325008D3C53 /* BaseCollectionViewController.swift */; };
+		94FF7B89296EE325008D3C53 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF7B80296EE325008D3C53 /* BaseViewController.swift */; };
+		94FF7B8A296EE325008D3C53 /* CollectionViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF7B84296EE325008D3C53 /* CollectionViewAdapter.swift */; };
+		94FF7B8D296EE329008D3C53 /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF7B8C296EE329008D3C53 /* SettingCell.swift */; };
+		94FF7B90296EE32C008D3C53 /* SwiftButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF7B8E296EE32C008D3C53 /* SwiftButton.swift */; };
+		94FF7B91296EE32C008D3C53 /* StackBottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF7B8F296EE32C008D3C53 /* StackBottomBarView.swift */; };
+		94FF7B94296EE32F008D3C53 /* IAPCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF7B93296EE32F008D3C53 /* IAPCenter.swift */; };
+		94FF7B95296EE32F008D3C53 /* KeyboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF7B92296EE32F008D3C53 /* KeyboardHelper.swift */; };
+		94FF7B97296EE332008D3C53 /* UserInfoCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF7B96296EE332008D3C53 /* UserInfoCenter.swift */; };
+		94FF7B9C296EE338008D3C53 /* LaunchviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF7B9B296EE338008D3C53 /* LaunchviewController.swift */; };
+		94FF7B9E296EE338008D3C53 /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF7B98296EE338008D3C53 /* SelectViewController.swift */; };
+		94FF7B9F296EE338008D3C53 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF7B99296EE338008D3C53 /* SettingViewController.swift */; };
+		94FF7BA1296EE358008D3C53 /* CodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF7BA0296EE358008D3C53 /* CodeModel.swift */; };
+		94FF7BA3296EE450008D3C53 /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF7BA2296EE450008D3C53 /* GridViewController.swift */; };
+		94FF7BB5296EEF6F008D3C53 /* 往生淨土神咒.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94FF7BA9296EEF6E008D3C53 /* 往生淨土神咒.mp3 */; };
+		94FF7BB6296EEF6F008D3C53 /* 心經.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94FF7BAA296EEF6E008D3C53 /* 心經.mp3 */; };
+		94FF7BB7296EEF6F008D3C53 /* 大悲咒.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94FF7BAB296EEF6E008D3C53 /* 大悲咒.mp3 */; };
+		94FF7BB8296EEF6F008D3C53 /* 準提佛母心咒.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94FF7BAC296EEF6E008D3C53 /* 準提佛母心咒.mp3 */; };
+		94FF7BB9296EEF6F008D3C53 /* 滅定業真言.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94FF7BAD296EEF6E008D3C53 /* 滅定業真言.mp3 */; };
+		94FF7BBA296EEF6F008D3C53 /* 淨水咒.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94FF7BAE296EEF6E008D3C53 /* 淨水咒.mp3 */; };
+		94FF7BBB296EEF6F008D3C53 /* 大勢至菩薩心咒.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94FF7BAF296EEF6E008D3C53 /* 大勢至菩薩心咒.mp3 */; };
+		94FF7BBC296EEF6F008D3C53 /* 緣度母心咒.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94FF7BB0296EEF6E008D3C53 /* 緣度母心咒.mp3 */; };
+		94FF7BBD296EEF6F008D3C53 /* 文殊心咒.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94FF7BB1296EEF6E008D3C53 /* 文殊心咒.mp3 */; };
+		94FF7BBE296EEF6F008D3C53 /* 楞嚴咒咒心.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94FF7BB2296EEF6F008D3C53 /* 楞嚴咒咒心.mp3 */; };
+		94FF7BBF296EEF6F008D3C53 /* 月光菩薩咒.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94FF7BB3296EEF6F008D3C53 /* 月光菩薩咒.mp3 */; };
+		94FF7BC0296EEF6F008D3C53 /* 日光菩薩咒.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 94FF7BB4296EEF6F008D3C53 /* 日光菩薩咒.mp3 */; };
+		94FF7BC2296EF067008D3C53 /* SettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94FF7BC1296EF067008D3C53 /* SettingCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +69,6 @@
 		94FF7B3F296EDBA3008D3C53 /* GodBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GodBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94FF7B42296EDBA3008D3C53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94FF7B44296EDBA3008D3C53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		94FF7B46296EDBA3008D3C53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		94FF7B49296EDBA3008D3C53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94FF7B4B296EDBA4008D3C53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94FF7B4E296EDBA4008D3C53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +78,37 @@
 		94FF7B5F296EDBA5008D3C53 /* GodBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GodBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94FF7B63296EDBA5008D3C53 /* GodBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodBookUITests.swift; sourceTree = "<group>"; };
 		94FF7B65296EDBA5008D3C53 /* GodBookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodBookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		94FF7B7D296EE27D008D3C53 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		94FF7B7F296EE324008D3C53 /* TableViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAdapter.swift; sourceTree = "<group>"; };
+		94FF7B80296EE325008D3C53 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		94FF7B81296EE325008D3C53 /* CellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellProtocol.swift; sourceTree = "<group>"; };
+		94FF7B82296EE325008D3C53 /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		94FF7B83296EE325008D3C53 /* BaseCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewController.swift; sourceTree = "<group>"; };
+		94FF7B84296EE325008D3C53 /* CollectionViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewAdapter.swift; sourceTree = "<group>"; };
+		94FF7B8C296EE329008D3C53 /* SettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
+		94FF7B8E296EE32C008D3C53 /* SwiftButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftButton.swift; sourceTree = "<group>"; };
+		94FF7B8F296EE32C008D3C53 /* StackBottomBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackBottomBarView.swift; sourceTree = "<group>"; };
+		94FF7B92296EE32F008D3C53 /* KeyboardHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHelper.swift; sourceTree = "<group>"; };
+		94FF7B93296EE32F008D3C53 /* IAPCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPCenter.swift; sourceTree = "<group>"; };
+		94FF7B96296EE332008D3C53 /* UserInfoCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoCenter.swift; sourceTree = "<group>"; };
+		94FF7B98296EE338008D3C53 /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		94FF7B99296EE338008D3C53 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		94FF7B9B296EE338008D3C53 /* LaunchviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchviewController.swift; sourceTree = "<group>"; };
+		94FF7BA0296EE358008D3C53 /* CodeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeModel.swift; sourceTree = "<group>"; };
+		94FF7BA2296EE450008D3C53 /* GridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
+		94FF7BA9296EEF6E008D3C53 /* 往生淨土神咒.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "往生淨土神咒.mp3"; sourceTree = "<group>"; };
+		94FF7BAA296EEF6E008D3C53 /* 心經.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "心經.mp3"; sourceTree = "<group>"; };
+		94FF7BAB296EEF6E008D3C53 /* 大悲咒.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "大悲咒.mp3"; sourceTree = "<group>"; };
+		94FF7BAC296EEF6E008D3C53 /* 準提佛母心咒.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "準提佛母心咒.mp3"; sourceTree = "<group>"; };
+		94FF7BAD296EEF6E008D3C53 /* 滅定業真言.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "滅定業真言.mp3"; sourceTree = "<group>"; };
+		94FF7BAE296EEF6E008D3C53 /* 淨水咒.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "淨水咒.mp3"; sourceTree = "<group>"; };
+		94FF7BAF296EEF6E008D3C53 /* 大勢至菩薩心咒.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "大勢至菩薩心咒.mp3"; sourceTree = "<group>"; };
+		94FF7BB0296EEF6E008D3C53 /* 緣度母心咒.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "緣度母心咒.mp3"; sourceTree = "<group>"; };
+		94FF7BB1296EEF6E008D3C53 /* 文殊心咒.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "文殊心咒.mp3"; sourceTree = "<group>"; };
+		94FF7BB2296EEF6F008D3C53 /* 楞嚴咒咒心.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "楞嚴咒咒心.mp3"; sourceTree = "<group>"; };
+		94FF7BB3296EEF6F008D3C53 /* 月光菩薩咒.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "月光菩薩咒.mp3"; sourceTree = "<group>"; };
+		94FF7BB4296EEF6F008D3C53 /* 日光菩薩咒.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "日光菩薩咒.mp3"; sourceTree = "<group>"; };
+		94FF7BC1296EF067008D3C53 /* SettingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94FF7B7E296EE27E008D3C53 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +144,7 @@
 				94FF7B58296EDBA4008D3C53 /* GodBookTests */,
 				94FF7B62296EDBA5008D3C53 /* GodBookUITests */,
 				94FF7B40296EDBA3008D3C53 /* Products */,
+				94FF7B7C296EE27D008D3C53 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +163,28 @@
 			children = (
 				94FF7B42296EDBA3008D3C53 /* AppDelegate.swift */,
 				94FF7B44296EDBA3008D3C53 /* SceneDelegate.swift */,
-				94FF7B46296EDBA3008D3C53 /* ViewController.swift */,
 				94FF7B48296EDBA3008D3C53 /* Main.storyboard */,
 				94FF7B4B296EDBA4008D3C53 /* Assets.xcassets */,
 				94FF7B4D296EDBA4008D3C53 /* LaunchScreen.storyboard */,
+				94FF7B83296EE325008D3C53 /* BaseCollectionViewController.swift */,
+				94FF7B82296EE325008D3C53 /* BaseTableViewController.swift */,
+				94FF7B80296EE325008D3C53 /* BaseViewController.swift */,
+				94FF7B81296EE325008D3C53 /* CellProtocol.swift */,
+				94FF7B84296EE325008D3C53 /* CollectionViewAdapter.swift */,
+				94FF7B7F296EE324008D3C53 /* TableViewAdapter.swift */,
+				94FF7B8C296EE329008D3C53 /* SettingCell.swift */,
+				94FF7BC1296EF067008D3C53 /* SettingCell.xib */,
+				94FF7B8F296EE32C008D3C53 /* StackBottomBarView.swift */,
+				94FF7B8E296EE32C008D3C53 /* SwiftButton.swift */,
+				94FF7B93296EE32F008D3C53 /* IAPCenter.swift */,
+				94FF7B92296EE32F008D3C53 /* KeyboardHelper.swift */,
+				94FF7B96296EE332008D3C53 /* UserInfoCenter.swift */,
+				94FF7B9B296EE338008D3C53 /* LaunchviewController.swift */,
+				94FF7B98296EE338008D3C53 /* SelectViewController.swift */,
+				94FF7B99296EE338008D3C53 /* SettingViewController.swift */,
+				94FF7BA0296EE358008D3C53 /* CodeModel.swift */,
+				94FF7BA2296EE450008D3C53 /* GridViewController.swift */,
+				94FF7BA8296EEF60008D3C53 /* Music */,
 				94FF7B50296EDBA4008D3C53 /* Info.plist */,
 			);
 			path = GodBook;
@@ -125,6 +205,33 @@
 				94FF7B65296EDBA5008D3C53 /* GodBookUITestsLaunchTests.swift */,
 			);
 			path = GodBookUITests;
+			sourceTree = "<group>";
+		};
+		94FF7B7C296EE27D008D3C53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94FF7B7D296EE27D008D3C53 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94FF7BA8296EEF60008D3C53 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				94FF7BAB296EEF6E008D3C53 /* 大悲咒.mp3 */,
+				94FF7BAF296EEF6E008D3C53 /* 大勢至菩薩心咒.mp3 */,
+				94FF7BAA296EEF6E008D3C53 /* 心經.mp3 */,
+				94FF7BB1296EEF6E008D3C53 /* 文殊心咒.mp3 */,
+				94FF7BB4296EEF6F008D3C53 /* 日光菩薩咒.mp3 */,
+				94FF7BB3296EEF6F008D3C53 /* 月光菩薩咒.mp3 */,
+				94FF7BA9296EEF6E008D3C53 /* 往生淨土神咒.mp3 */,
+				94FF7BAE296EEF6E008D3C53 /* 淨水咒.mp3 */,
+				94FF7BB2296EEF6F008D3C53 /* 楞嚴咒咒心.mp3 */,
+				94FF7BAC296EEF6E008D3C53 /* 準提佛母心咒.mp3 */,
+				94FF7BAD296EEF6E008D3C53 /* 滅定業真言.mp3 */,
+				94FF7BB0296EEF6E008D3C53 /* 緣度母心咒.mp3 */,
+			);
+			path = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +339,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				94FF7B4F296EDBA4008D3C53 /* LaunchScreen.storyboard in Resources */,
+				94FF7BBE296EEF6F008D3C53 /* 楞嚴咒咒心.mp3 in Resources */,
+				94FF7BBF296EEF6F008D3C53 /* 月光菩薩咒.mp3 in Resources */,
+				94FF7BB7296EEF6F008D3C53 /* 大悲咒.mp3 in Resources */,
+				94FF7BB9296EEF6F008D3C53 /* 滅定業真言.mp3 in Resources */,
+				94FF7BB8296EEF6F008D3C53 /* 準提佛母心咒.mp3 in Resources */,
+				94FF7BBA296EEF6F008D3C53 /* 淨水咒.mp3 in Resources */,
+				94FF7BBC296EEF6F008D3C53 /* 緣度母心咒.mp3 in Resources */,
+				94FF7BC2296EF067008D3C53 /* SettingCell.xib in Resources */,
+				94FF7BC0296EEF6F008D3C53 /* 日光菩薩咒.mp3 in Resources */,
+				94FF7BB6296EEF6F008D3C53 /* 心經.mp3 in Resources */,
+				94FF7BBB296EEF6F008D3C53 /* 大勢至菩薩心咒.mp3 in Resources */,
+				94FF7BB5296EEF6F008D3C53 /* 往生淨土神咒.mp3 in Resources */,
+				94FF7BBD296EEF6F008D3C53 /* 文殊心咒.mp3 in Resources */,
 				94FF7B4C296EDBA4008D3C53 /* Assets.xcassets in Resources */,
 				94FF7B4A296EDBA3008D3C53 /* Main.storyboard in Resources */,
 			);
@@ -258,9 +378,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94FF7B47296EDBA3008D3C53 /* ViewController.swift in Sources */,
+				94FF7B9E296EE338008D3C53 /* SelectViewController.swift in Sources */,
+				94FF7B85296EE325008D3C53 /* BaseTableViewController.swift in Sources */,
 				94FF7B43296EDBA3008D3C53 /* AppDelegate.swift in Sources */,
 				94FF7B45296EDBA3008D3C53 /* SceneDelegate.swift in Sources */,
+				94FF7B95296EE32F008D3C53 /* KeyboardHelper.swift in Sources */,
+				94FF7B9F296EE338008D3C53 /* SettingViewController.swift in Sources */,
+				94FF7B90296EE32C008D3C53 /* SwiftButton.swift in Sources */,
+				94FF7B88296EE325008D3C53 /* BaseCollectionViewController.swift in Sources */,
+				94FF7B87296EE325008D3C53 /* TableViewAdapter.swift in Sources */,
+				94FF7B89296EE325008D3C53 /* BaseViewController.swift in Sources */,
+				94FF7B91296EE32C008D3C53 /* StackBottomBarView.swift in Sources */,
+				94FF7B8A296EE325008D3C53 /* CollectionViewAdapter.swift in Sources */,
+				94FF7B9C296EE338008D3C53 /* LaunchviewController.swift in Sources */,
+				94FF7B94296EE32F008D3C53 /* IAPCenter.swift in Sources */,
+				94FF7B97296EE332008D3C53 /* UserInfoCenter.swift in Sources */,
+				94FF7B86296EE325008D3C53 /* CellProtocol.swift in Sources */,
+				94FF7BA3296EE450008D3C53 /* GridViewController.swift in Sources */,
+				94FF7B8D296EE329008D3C53 /* SettingCell.swift in Sources */,
+				94FF7BA1296EE358008D3C53 /* CodeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +581,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,9 +589,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = tw.com.annaBegg.GodBook.GodBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -473,6 +613,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,9 +621,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = tw.com.annaBegg.GodBook.GodBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
