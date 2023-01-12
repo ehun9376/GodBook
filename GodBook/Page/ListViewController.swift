@@ -225,23 +225,6 @@ class ListViewController: BaseTableViewController {
     
     func showAlert(type: ProductID) {
         
-        let iapedIDs = UserInfoCenter.shared.loadValue(.iaped) as? [String] ?? []
-        
-        guard iapedIDs.contains(type.id) || type == .heart else {
-            self.showAlert(title: "要購買才可以用喔",
-                           message: "目前尚未開放購買解鎖\n\(type.soundName)\nID:\(type.id)",
-                           confirmTitle: "前往購買",
-                           cancelTitle: "取消",
-                           confirmAction: {
-                
-                if let product = IAPCenter.shared.products.first(where: {$0.productIdentifier == type.id}) {
-                    IAPCenter.shared.buy(product: product)
-                }
-               
-            },
-                           cancelAction: nil)
-            return
-        }
         
         self.pushToContentViewController(type: type)
         

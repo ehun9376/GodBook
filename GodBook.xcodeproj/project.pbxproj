@@ -16,7 +16,6 @@
 		94FF7B5A296EDBA4008D3C53 /* GodBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF7B59296EDBA4008D3C53 /* GodBookTests.swift */; };
 		94FF7B64296EDBA5008D3C53 /* GodBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF7B63296EDBA5008D3C53 /* GodBookUITests.swift */; };
 		94FF7B66296EDBA5008D3C53 /* GodBookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF7B65296EDBA5008D3C53 /* GodBookUITestsLaunchTests.swift */; };
-		94FF7B7E296EE27E008D3C53 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FF7B7D296EE27D008D3C53 /* StoreKit.framework */; };
 		94FF7B85296EE325008D3C53 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF7B82296EE325008D3C53 /* BaseTableViewController.swift */; };
 		94FF7B86296EE325008D3C53 /* CellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF7B81296EE325008D3C53 /* CellProtocol.swift */; };
 		94FF7B87296EE325008D3C53 /* TableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF7B7F296EE324008D3C53 /* TableViewAdapter.swift */; };
@@ -80,7 +79,6 @@
 		94FF7B5F296EDBA5008D3C53 /* GodBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GodBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94FF7B63296EDBA5008D3C53 /* GodBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodBookUITests.swift; sourceTree = "<group>"; };
 		94FF7B65296EDBA5008D3C53 /* GodBookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GodBookUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		94FF7B7D296EE27D008D3C53 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		94FF7B7F296EE324008D3C53 /* TableViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAdapter.swift; sourceTree = "<group>"; };
 		94FF7B80296EE325008D3C53 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		94FF7B81296EE325008D3C53 /* CellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellProtocol.swift; sourceTree = "<group>"; };
@@ -118,7 +116,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94FF7B7E296EE27E008D3C53 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +258,6 @@
 		94FF7B7C296EE27D008D3C53 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				94FF7B7D296EE27D008D3C53 /* StoreKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -624,7 +620,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 0;
 				DEVELOPMENT_TEAM = 89P6MA394F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GodBook/Info.plist;
@@ -656,7 +652,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 0;
 				DEVELOPMENT_TEAM = 89P6MA394F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GodBook/Info.plist;

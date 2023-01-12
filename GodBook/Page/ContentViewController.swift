@@ -91,6 +91,26 @@ class ContentViewController: BaseViewController {
     
     @objc func playButtonAction(_ sender: UIButton) {
         self.view.endEditing(true)
+        
+        
+        let iapedIDs = UserInfoCenter.shared.loadValue(.iaped) as? [String] ?? []
+        
+        guard iapedIDs.contains(model.id) || model == .heart else {
+            self.showAlert(title: "要購買才可以用喔",
+                           message: "目前尚未開放購買解鎖\n\(model.soundName)\nID:\(model.id)",
+                           confirmTitle: "前往購買",
+                           cancelTitle: "取消",
+                           confirmAction: {
+                
+                if let product = IAPCenter.shared.products.first(where: {$0.productIdentifier == self.model.id}) {
+                    IAPCenter.shared.buy(product: product)
+                }
+               
+            },
+                           cancelAction: nil)
+            return
+        }
+        
         if let audioplayer = self.audioplayer {
             if audioplayer.isPlaying {
                 audioplayer.currentTime = 0
