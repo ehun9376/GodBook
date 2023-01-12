@@ -18,14 +18,7 @@ class UserInfoCenter: NSObject {
         ///已購買項目
         case iaped = "iaped"
         
-        ///總共敲擊幾次
-        case time = "time"
-        
-        ///現在在用哪一種
-        case current = "currentType"
-        
-        ///總數
-        case count = "count"
+
     }
     
     func storeValue(_ type: UserInfoDataType, data: Any?) {

@@ -38,7 +38,6 @@ class SelectViewController: BaseTableViewController {
         var rowModels: [CellRowModel] = []
         for model in dataSourceModels {
             
-            let isSelected: Bool = self.selectedModels.contains(model)
  
          
         }

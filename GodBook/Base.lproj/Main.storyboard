@@ -40,29 +40,25 @@
             </objects>
             <point key="canvasLocation" x="120" y="-100"/>
         </scene>
-        <!--Setting View Controller-->
+        <!--List View Controller-->
         <scene sceneID="mbq-UC-C55">
             <objects>
-                <viewController id="oOk-ac-LVP" customClass="SettingViewController" customModule="GodBook" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="oOk-ac-LVP" customClass="ListViewController" customModule="GodBook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4y2-za-Xr3">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="Wz8-GO-pkX"/>
-                        <color key="backgroundColor" systemColor="systemBrownColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="QWf-as-1kt"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ddS-9V-dD5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="947" y="-129"/>
+            <point key="canvasLocation" x="902" y="-100"/>
         </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBrownColor">
-            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
