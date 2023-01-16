@@ -401,20 +401,7 @@ class IAPCenter: NSObject {
     //總共有多少購買項目
     func getProductIDs() -> [String] {
         
-        return [
-            ProductID.heart.id,
-            ProductID.sad.id,
-            ProductID.water.id,
-            ProductID.dead.id,
-            ProductID.sun.id,
-            ProductID.moon.id,
-            ProductID.killHeart.id,
-            ProductID.yen.id,
-            ProductID.da4.id,
-            ProductID.monther.id,
-            ProductID.breakTrue.id,
-            ProductID.fateDoMother.id
-        ]
+        return types.map { $0.id }
     }
     
     func getProducts() {
